@@ -39,9 +39,9 @@ bot = Client(
     bot_token=BOT_TOKEN
 )
 
-API_ID    = os.environ.get("API_ID", "24495656")
-API_HASH  = os.environ.get("API_HASH", "61afcf68c6429714dd18acd07f246571")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7842202956:AAHgKbWG5FSQhRdcovXmqaEYlPMd-dQu630") 
+API_ID    = os.environ.get("API_ID", "20114039")
+API_HASH  = os.environ.get("API_HASH", "87297b8f3cc8fc9bbce591ad30da5896")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8005429189:AAHquY4qiB2nNJIVmUUbhkuUWGdHE9Qev4g") 
 
 # Define aiohttp routes
 routes = web.RouteTableDef()
@@ -182,7 +182,7 @@ SUBSCRIPTION_FILE = "subscription_data.txt"
 CHANNELS_FILE = "channels_data.json"
 
 # Admin ID
-YOUR_ADMIN_ID = 5548106944
+YOUR_ADMIN_ID = 8172163893
 
 # Function to read subscription data
 def read_subscription_data():
